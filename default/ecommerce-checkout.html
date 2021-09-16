@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Checkout | Chesa Dental Care</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="" name="description" />
+        <meta content="chesa" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="../assets/images/favicon.ico">
+
+	    <!-- App css -->
+	    <link href="../assets/css/config/default/bootstrap.min.css" rel="stylesheet" type="text/css" id="bs-default-stylesheet" />
+	    <link href="../assets/css/config/default/app.min.css" rel="stylesheet" type="text/css" id="app-default-stylesheet" />
+
+	    <link href="../assets/css/config/default/bootstrap-dark.min.css" rel="stylesheet" type="text/css" id="bs-dark-stylesheet" />
+	    <link href="../assets/css/config/default/app-dark.min.css" rel="stylesheet" type="text/css" id="app-dark-stylesheet" />
+
+	    <!-- icons -->
+	    <link href="../assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <!-- body start -->
+    <body class="loading" data-layout='{"mode": "light", "width": "fluid", "menuPosition": "fixed", "sidebar": { "color": "dark", "size": "default", "showuser": true}, "topbar": {"color": "dark"}, "showRightSidebarOnPageLoad": false}'>
+
+        <!-- Begin page -->
+        <div id="wrapper">
+
+            <!-- Topbar Start -->
+<div class="navbar-custom">
+    <div class="container-fluid">
+        <ul class="list-unstyled topnav-menu float-end mb-1">
+
+            <li class="dropdown d-none d-lg-inline-block">
+                <a class="nav-link dropdown-toggle arrow-none waves-effect waves-light" data-toggle="fullscreen" href="#">
+                    <i class="fe-maximize noti-icon"></i>
+                </a>
+            </li>
+            
+            <li class="dropdown d-none d-lg-inline-block topbar-dropdown">
+                <a class="nav-link dropdown-toggle arrow-none waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                    <i class="fe-grid noti-icon"></i>
+                </a>
+                <div class="dropdown-menu dropdown-lg dropdown-menu-end">
+    
+                    <div class="p-lg-1">
+                        <div class="row g-0">
+                            <div class="col">
+                                <a class="dropdown-icon-item" href="#">
+                                    <img src="../assets/images/brands/slack.png" alt="slack">
+                                    <span>Slack</span>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a class="dropdown-icon-item" href="#">
+                                    <img src="../assets/images/brands/github.png" alt="Github">
+                                    <span>GitHub</span>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a class="dropdown-icon-item" href="#">
+                                    <img src="../assets/images/brands/dribbble.png" alt="dribbble">
+                                    <span>Dribbble</span>
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="row g-0">
+                            <div class="col">
+                                <a class="dropdown-icon-item" href="#">
+                                    <img src="../assets/images/brands/bitbucket.png" alt="bitbucket">
+                                    <span>Bitbucket</span>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a class="dropdown-icon-item" href="#">
+                                    <img src="../assets/images/brands/dropbox.png" alt="dropbox">
+                                    <span>Dropbox</span>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a class="dropdown-icon-item" href="#">
+                                    <img src="../assets/images/brands/g-suite.png" alt="G Suite">
+                                    <span>G Suite</span>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+    
+                </div>
+            </li>
+    
+            
+    
+            <li class="dropdown notification-list topbar-dropdown">
+                <a class="nav-link dropdown-toggle nav-user me-0 waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                    <img src="../assets/images/users/user-2.jpg" alt="user-image" class="rounded-circle">
+                    <span class="pro-user-name ms-1">
+                        Sarvesh <i class="mdi mdi-chevron-down"></i> 
+                    </span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-end profile-dropdown ">
+                    <!-- item-->
+                    <div class="dropdown-header noti-title">
+                        <h6 class="text-overflow m-0">Welcome !</h6>
+                    </div>
+    
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                        <i class="fe-user"></i>
+                        <span>My Account</span>
+                    </a>
+    
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                        <i class="fe-settings"></i>
+                        <span>Settings</span>
+                    </a>
+    
+                    
+    
+                    <div class="dropdown-divider"></div>
+    
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                        <i class="fe-log-out"></i>
+                        <span>Logout</span>
+                    </a>
+    
+                </div>
+            </li>
+    
+            
+    
+        </ul>
+    
+        <!-- LOGO -->
+        <div class="logo-box">
+            <a href="index.html" class="logo logo-dark text-center">
+                <span class="logo-sm">
+                    <img src="../assets/images/logo-sm.png" alt="" height="50">
+                    <!-- <span class="logo-lg-text-light">UBold</span> -->
+                </span>
+                <span class="logo-lg">
+                    <img src="../assets/images/logo-dark.png" alt="" height="55">
+                    <!-- <span class="logo-lg-text-light">U</span> -->
+                </span>
+            </a>
+    
+            <a href="index.html" class="logo logo-light text-center">
+                <span class="logo-sm">
+                    <img src="../assets/images/logo-sm.png" alt="" height="50">
+                </span>
+                <span class="logo-lg">
+                    <img src="../assets/images/logo-light.png" alt="" height="55">
+                </span>
+            </a>
+        </div>
+    
+        <ul class="list-unstyled topnav-menu topnav-menu-left m-0">
+            <li>
+                <button class="button-menu-mobile waves-effect waves-light">
+                    <i class="fe-menu"></i>
+                </button>
+            </li>
+
+            <li>
+                <!-- Mobile menu toggle (Horizontal Layout)-->
+                <a class="navbar-toggle nav-link" data-bs-toggle="collapse" data-bs-target="#topnav-menu-content">
+                    <div class="lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+                <!-- End mobile menu toggle-->
+            </li>   
+            
+            <li class="dropdown d-none d-xl-block">
+                <a class="nav-link dropdown-toggle waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                     Quick Navigation
+                    <i class="mdi mdi-chevron-down"></i> 
+                </a>
+                <div class="dropdown-menu">
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item">
+                        <i class="fe-briefcase me-1"></i>
+                        <span>New Order</span>
+                    </a>
+    
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item">
+                        <i class="fe-user me-1"></i>
+                        <span>Product Catalogue</span>
+                    </a>
+    
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item">
+                        <i class="fe-bar-chart-line- me-1"></i>
+                        <span>Favourites</span>
+                    </a>
+    
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item">
+                        <i class="fe-settings me-1"></i>
+                        <span>Settings</span>
+                    </a>
+    
+                    <div class="dropdown-divider"></div>
+    
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item">
+                        <i class="fe-headphones me-1"></i>
+                        <span>Help & Support</span>
+                    </a>
+    
+                </div>
+            </li>
+    
+            
+        </ul>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!-- end Topbar -->
+
+            <!-- ========== Left Sidebar Start ========== -->
+            <div class="left-side-menu">
+
+                <div class="h-100" data-simplebar>
+
+                    
+                    <!--- Sidemenu -->
+                    <div id="sidebar-menu">
+
+                        <ul id="side-menu">
+
+                            <li class="menu-title">Product Navigation</li>
+                            
+                            <li>
+                                <a href="index.html">
+                                    <i data-feather="home"></i>
+                                    <span> Home </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="offers.html">
+                                    <i data-feather="gift"></i>
+                                    <span> Offers </span>
+                                </a>
+                            </li>
+
+
+
+                            <li>
+                                <a href="offers.html">
+                                    <i data-feather="external-link"></i>
+                                    <span> Inventory check </span>
+                                </a>
+                            </li>
+
+                        
+
+
+
+                            
+
+                            <li class="menu-title mt-2">Account</li>
+
+                            <li>
+                                <a href="ecommerce-orders.html">
+                                    <i data-feather="shopping-bag"></i>
+                                    <span> My Orders </span>
+                                </a>
+                            </li>
+
+                           
+                                 <li class="menu-title mt-2">other page</li>
+
+                            <li>
+                                <a href="ecommerce-checkout.html">
+                                    <i data-feather="shopping-bag"></i>
+                                    <span> Checkout Page </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="ecommerce-order-detail.html">
+                                    <i data-feather="shopping-bag"></i>
+                                    <span> Order detail Page </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="ecommerce-product-detail.html">
+                                    <i data-feather="shopping-bag"></i>
+                                    <span> Product detail Page </span>
+                                </a>
+                            </li>
+                          
+                             
+                             <li class="menu-title">Support</li>
+                            
+                            <li>
+                                <a href="#sidebarTickets" data-bs-toggle="collapse">
+                                    <i data-feather="aperture"></i>
+                                    <span> Help </span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <div class="collapse" id="sidebarTickets">
+                                    <ul class="nav-second-level">
+                                        <li>
+                                            <a href="pages-faqs.html">FAQ's</a>
+                                        </li>
+                                        <li>
+                                            <a href="pages-coming-soon.html">Service Support</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Agent Chat</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                           
+                                           
+                    </div>
+                    <!-- End Sidebar -->
+
+                    <div class="clearfix"></div>
+
+                </div>
+                <!-- Sidebar -left -->
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+
+            <div class="content-page">
+                <div class="content">
+
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+                        
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box">
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Chesa Dental Care</a></li>
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Cart</a></li>
+                                            <li class="breadcrumb-item active">Checkout</li>
+                                        </ol>
+                                    </div>
+                                    <h4 class="page-title">Checkout</h4>
+                                </div>
+                            </div>
+                        </div>     
+                        <!-- end page title --> 
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="nav nav-pills flex-column navtab-bg nav-pills-tab text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                                    <a class="nav-link active show py-2" id="custom-v-pills-billing-tab" data-bs-toggle="pill" href="#custom-v-pills-billing" role="tab" aria-controls="custom-v-pills-billing"
+                                                        aria-selected="true">
+                                                        <i class="mdi mdi-account-circle d-block font-24"></i>
+                                                        Billing Info
+                                                    </a>
+                                                    <a class="nav-link mt-2 py-2" id="custom-v-pills-shipping-tab" data-bs-toggle="pill" href="#custom-v-pills-shipping" role="tab" aria-controls="custom-v-pills-shipping"
+                                                        aria-selected="false">
+                                                        <i class="mdi mdi-truck-fast d-block font-24"></i>
+                                                        Shipping Info</a>
+                                                    <a class="nav-link mt-2 py-2" id="custom-v-pills-payment-tab" data-bs-toggle="pill" href="#custom-v-pills-payment" role="tab" aria-controls="custom-v-pills-payment"
+                                                        aria-selected="false">
+                                                        <i class="mdi mdi-cash-multiple d-block font-24"></i>
+                                                        Payment Info</a>
+                                                </div>  
+
+                                                <div class="border mt-4 rounded">
+                                                    <h4 class="header-title p-2 mb-0">Order Summary</h4>
+    
+                                                    <div class="table-responsive">
+                                                        <table class="table table-centered table-nowrap mb-0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td style="width: 90px;">
+                                                                        <img src="../assets/images/products/product-1.jpg" alt="product-img"
+                                                                            title="product-img" class="rounded" height="48" />
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="ecommerce-product-detail.html" class="text-body fw-semibold">Micro NX </a>
+                                                                        <small class="d-block">1 x ₹39</small>
+                                                                    </td>
+                                                                    
+                                                                    <td class="text-end">
+                                                                        ₹39
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <img src="../assets/images/products/product-2.jpg" alt="product-img"
+                                                                            title="product-img" class="rounded" height="48" />
+                                                                    </td>
+
+                                                                    <td>
+                                                                        <a href="ecommerce-product-detail.html" class="text-body fw-semibold">New Jwala </a>
+                                                                        <small class="d-block">2 x ₹46</small>
+                                                                    </td>
+                                                                    <td class="text-end">
+                                                                        ₹92
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <img src="../assets/images/products/product-3.jpg" alt="product-img"
+                                                                            title="product-img" class="rounded me-2" height="48" />
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="ecommerce-product-detail.html" class="text-body fw-semibold">Onyx Regular</a>
+                                                                        <small class="d-block">1 x ₹26</small>
+                                                                    </td>
+                                                                    <td class="text-end">
+                                                                        ₹26
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="text-end">
+                                                                    <td colspan="2">
+                                                                        <h6 class="m-0">Sub Total:</h6>
+                                                                    </td>
+                                                                    <td class="text-end">
+                                                                        ₹157
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="text-end">
+                                                                    <td colspan="2">
+                                                                        <h6 class="m-0">Shipping:</h6>
+                                                                    </td>
+                                                                    <td class="text-end">
+                                                                        FREE
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="text-end">
+                                                                    <td colspan="2">
+                                                                        <h5 class="m-0">Total:</h5>
+                                                                    </td>
+                                                                    <td class="text-end fw-semibold">
+                                                                        ₹157
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <!-- end table-responsive -->
+                                                </div> <!-- end .border-->
+                                            </div> <!-- end col-->
+                                            <div class="col-lg-8">
+                                                <div class="tab-content p-3">
+                                                    <div class="tab-pane fade active show" id="custom-v-pills-billing" role="tabpanel" aria-labelledby="custom-v-pills-billing-tab">
+                                                        <div>
+                                                            <h4 class="header-title">Billing Information</h4>
+
+                                                            <p class="sub-header">Fill the form below in order to
+                                                                send you the order's invoice.</p>
+                                                            <form>
+                                                                <div class="row">
+                                                                    <div class="col-md-6">
+                                                                        <div class="mb-3">
+                                                                            <label for="billing-first-name" class="form-label">First Name</label>
+                                                                            <input class="form-control" type="text" placeholder="Enter your first name" id="billing-first-name" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <div class="mb-3">
+                                                                            <label for="billing-last-name" class="form-label">Last Name</label>
+                                                                            <input class="form-control" type="text" placeholder="Enter your last name" id="billing-last-name" />
+                                                                        </div>
+                                                                    </div>
+                                                                </div> <!-- end row -->
+                                                                <div class="row">
+                                                                    <div class="col-md-6">
+                                                                        <div class="mb-3">
+                                                                            <label for="billing-email-address" class="form-label">Email Address <span class="text-danger">*</span></label>
+                                                                            <input class="form-control" type="email" placeholder="Enter your email" id="billing-email-address" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <div class="mb-3">
+                                                                            <label for="billing-phone" class="form-label">Phone <span class="text-danger">*</span></label>
+                                                                            <input class="form-control" type="text" placeholder="(xx) xxx xxxx xxx" id="billing-phone" />
+                                                                        </div>
+                                                                    </div>
+                                                                </div> <!-- end row -->
+                                                                <div class="row">
+                                                                    <div class="col-12">
+                                                                        <div class="mb-3">
+                                                                            <label for="billing-address" class="form-label">Address</label>
+                                                                            <input class="form-control" type="text" placeholder="Enter full address" id="billing-address">
+                                                                        </div>
+                                                                    </div>
+                                                                </div> <!-- end row -->
+                                                                <div class="row">
+                                                                    <div class="col-md-4">
+                                                                        <div class="mb-3">
+                                                                            <label for="billing-town-city" class="form-label">Town / City</label>
+                                                                            <input class="form-control" type="text" placeholder="Enter your city name" id="billing-town-city" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="mb-3">
+                                                                            <label for="billing-state" class="form-label">State</label>
+                                                                            <input class="form-control" type="text" placeholder="Enter your state" id="billing-state" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="mb-3">
+                                                                            <label for="billing-zip-postal" class="form-label">Zip Code</label>
+                                                                            <input class="form-control" type="text" placeholder="Enter your zip code" id="billing-zip-postal" />
+                                                                        </div>
+                                                                    </div>
+                                                                </div> <!-- end row -->
+                                                                
+        
+                                                                <div class="row">
+                                                                    <div class="col-12">
+                                                                        <div class="mb-3">
+                                                                            <div class="form-check">
+                                                                                <input type="checkbox" class="form-check-input" id="customCheck2">
+                                                                                <label class="form-check-label" for="customCheck2">Ship to different address ?</label>
+                                                                            </div>
+                                                                        </div>
+        
+                                                                        <div class="my-3">
+                                                                            <label for="example-textarea" class="form-label">Order Notes:</label>
+                                                                            <textarea class="form-control" id="example-textarea" rows="3" placeholder="Write some note.."></textarea>
+                                                                        </div>
+                                                                    </div>
+                                                                </div> <!-- end row -->
+        
+                                                                <div class="row mt-4">
+                                                                    <div class="col-sm-6">
+                                                                        <a href="ecommerce-cart.html" class="btn btn-secondary">
+                                                                            <i class="mdi mdi-arrow-left"></i> Back to Shopping Cart </a>
+                                                                    </div> <!-- end col -->
+                                                                    <div class="col-sm-6">
+                                                                        <div class="text-sm-end mt-2 mt-sm-0">
+                                                                            <a href="ecommerce-checkout.html" class="btn btn-success">
+                                                                                <i class="mdi mdi-truck-fast me-1"></i> Proceed to Shipping </a>
+                                                                        </div>
+                                                                    </div> <!-- end col -->
+                                                                </div> <!-- end row -->
+                                                            </form>
+                                                        </div>    
+                                                    </div>
+                                                    <div class="tab-pane fade" id="custom-v-pills-shipping" role="tabpanel" aria-labelledby="custom-v-pills-shipping-tab">
+                                                        <div>
+                                                            <h4 class="header-title">Saved Address</h4>
+
+                                                            <p class="sub-header">Fill the form below in order to
+                                                                send you the order's invoice.</p>
+        
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <div class="border p-3 rounded mb-3 mb-md-0">
+                                                                        <div class="float-end">
+                                                                            <a href="#"><i class="mdi mdi-square-edit-outline text-muted font-20"></i></a>
+                                                                        </div>
+                                                                        <div class="form-check">
+                                                                            <input type="radio" id="customRadio1" name="customRadio" class="form-check-input" checked>
+                                                                            <label class="form-check-label font-16 fw-bold" for="customRadio1">Home</label>
+                                                                        </div>
+                                                                        <h5 class="mt-3">Aristotle</h5>
+                                    
+                                                                        <p class="mb-2"><span class="fw-semibold me-2">Address:</span> 3559 Rhetoric Lane, Mumbai, MH 92405</p>
+                                                                        <p class="mb-2"><span class="fw-semibold me-2">Phone:</span> 914567890</p>
+                                                                        <p class="mb-0"><span class="fw-semibold me-2">Email:</span> aristotle@email.me</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="border p-3 rounded mb-3 mb-md-0">
+                                                                        <div class="float-end">
+                                                                            <a href="#"><i class="mdi mdi-square-edit-outline text-muted font-20"></i></a>
+                                                                        </div>
+                                                                        <div class="form-check">
+                                                                            <input type="radio" id="customRadio2" name="customRadio" class="form-check-input">
+                                                                            <label class="form-check-label font-16 fw-bold" for="customRadio2">Office</label>
+                                                                        </div>
+                                                                        
+                                                                        <h5 class="mt-3">Aristotle</h5>
+                                    
+                                                                        <p class="mb-2"><span class="fw-semibold me-2">Address:</span> 3559 Rhetoric Lane, Mumbai, MH 92405</p>
+                                                                        <p class="mb-2"><span class="fw-semibold me-2">Phone:</span> 914567890</p>
+                                                                        <p class="mb-0"><span class="fw-semibold me-2">Email:</span> aristotle@email.me</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- end row-->
+
+                                                            <h4 class="header-title mt-4">Shipping Method</h4>
+
+                                                            <p class="text-muted mb-3">Fill the form below in order to
+                                                                send you the order's invoice.</p>
+
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="border p-3 rounded mb-3">
+                                                                        <div class="form-check">
+                                                                            <input type="radio" id="shippingMethodRadio1" name="shippingOptions" class="form-check-input" checked>
+                                                                            <label class="form-check-label font-16 fw-bold" for="shippingMethodRadio1">Standard Delivery - FREE</label>
+                                                                        </div>
+                                                                        <p class="mb-0 ps-3 pt-1">Estimated 5-7 days shipping (Duties and tax may be due upon delivery)</p>
+                                                                    </div>
+
+                                                                    <div class="border p-3 rounded">
+                                                                        <div class="form-check">
+                                                                            <input type="radio" id="shippingMethodRadio2" name="shippingOptions" class="form-check-input">
+                                                                            <label class="form-check-label font-16 fw-bold" for="shippingMethodRadio2">Fast Delivery - ₹25</label>
+                                                                        </div>
+                                                                        <p class="mb-0 ps-3 pt-1">Estimated 1-2 days shipping (Duties and tax may be due upon delivery)</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- end row-->
+
+                                                            <div class="row mt-4">
+                                                                <div class="col-sm-6">
+                                                                    <a href="ecommerce-cart.html" class="btn btn-secondary">
+                                                                        <i class="mdi mdi-arrow-left"></i> Back to Shopping Cart </a>
+                                                                </div> <!-- end col -->
+                                                                <div class="col-sm-6">
+                                                                    <div class="text-sm-end mt-2 mt-sm-0">
+                                                                        <a href="ecommerce-checkout.html" class="btn btn-success">
+                                                                            <i class="mdi mdi-cash-multiple me-1"></i> Continue to Payment </a>
+                                                                    </div>
+                                                                </div> <!-- end col -->
+                                                            </div> <!-- end row -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="custom-v-pills-payment" role="tabpanel" aria-labelledby="custom-v-pills-payment-tab">
+                                                        <div>
+                                                            <h4 class="header-title">Payment Selection</h4>
+        
+                                                            <p class="sub-header">Fill the form below in order to
+                                                                send you the order's invoice.</p>
+        
+                                                            <!-- Pay with Paypal box-->
+                                                            <div class="border p-3 mb-3 rounded">
+                                                                <div class="float-end">
+                                                                    <i class="fab fa-cc-paypal font-24 text-primary"></i>
+                                                                </div>
+                                                                <div class="form-check">
+                                                                    <input type="radio" id="BillingOptRadio2" name="billingOptions" class="form-check-input">
+                                                                    <label class="form-check-label font-16 fw-bold" for="BillingOptRadio2">Pay with Paypal</label>
+                                                                </div>
+                                                                <p class="mb-0 ps-3 pt-1">You will be redirected to PayPal website to complete your purchase securely.</p>
+                                                                
+                                                            </div>
+                                                            <!-- end Pay with Paypal box-->
+        
+                                                            <!-- Credit/Debit Card box-->
+                                                            <div class="border p-3 mb-3 rounded">
+                                                                <div class="float-end">
+                                                                    <i class="far fa-credit-card font-24 text-primary"></i>
+                                                                </div>
+                                                                <div class="form-check">
+                                                                    <input type="radio" id="BillingOptRadio1" name="billingOptions" class="form-check-input" checked>
+                                                                    <label class="form-check-label font-16 fw-bold" for="BillingOptRadio1">Credit / Debit Card</label>
+                                                                </div>
+                                                                <p class="mb-0 ps-3 pt-1">Safe money transfer using your bank account. We support Mastercard, Visa, Discover and Stripe.</p>
+                                                                
+                                                                <div class="row mt-4">
+                                                                    <div class="col-md-12">
+                                                                        <div class="mb-3">
+                                                                            <label for="card-number" class="form-label">Card Number</label>
+                                                                            <input type="text" id="card-number" class="form-control" data-toggle="input-mask" data-mask-format="0000 0000 0000 0000" placeholder="4242 4242 4242 4242">
+                                                                        </div>
+                                                                    </div>
+                                                                </div> <!-- end row -->
+                                                                <div class="row">
+                                                                    <div class="col-md-6">
+                                                                        <div class="mb-3">
+                                                                            <label for="card-name-on" class="form-label">Name on card</label>
+                                                                            <input type="text" id="card-name-on" class="form-control" placeholder="Master Shreyu">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-3">
+                                                                        <div class="mb-3">
+                                                                            <label for="card-expiry-date" class="form-label">Expiry date</label>
+                                                                            <input type="text" id="card-expiry-date" class="form-control" data-toggle="input-mask" data-mask-format="00/00" placeholder="MM/YY">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-3">
+                                                                        <div class="mb-3">
+                                                                            <label for="card-cvv" class="form-label">CVV code</label>
+                                                                            <input type="text" id="card-cvv" class="form-control" data-toggle="input-mask" data-mask-format="000" placeholder="012">
+                                                                        </div>
+                                                                    </div>
+                                                                </div> <!-- end row -->
+                                                            </div>
+                                                            <!-- end Credit/Debit Card box-->
+        
+                                                            <!-- Cash on Delivery box-->
+                                                            <div class="border p-3 mb-3 rounded">
+                                                                <div class="float-end">
+                                                                    <i class="fas fa-money-bill-alt font-24 text-primary"></i>
+                                                                </div>
+                                                                <div class="form-check">
+                                                                    <input type="radio" id="BillingOptRadio4" name="billingOptions" class="form-check-input">
+                                                                    <label class="form-check-label font-16 fw-bold" for="BillingOptRadio4">Cash on Delivery</label>
+                                                                </div>
+                                                                <p class="mb-0 ps-3 pt-1">Pay with cash when your order is delivered.</p>
+                                                            </div>
+                                                            <!-- end Cash on Delivery box-->
+        
+                                                            <div class="row mt-4">
+                                                                <div class="col-sm-6">
+                                                                    <a href="ecommerce-cart.html" class="btn btn-secondary">
+                                                                        <i class="mdi mdi-arrow-left"></i> Back to Shopping Cart </a>
+                                                                </div> <!-- end col -->
+                                                                <div class="col-sm-6">
+                                                                    <div class="text-sm-end mt-2 mt-sm-0">
+                                                                        <a href="ecommerce-checkout.html" class="btn btn-success">
+                                                                            <i class="mdi mdi-cash-multiple me-1"></i> Complete Order </a>
+                                                                    </div>
+                                                                </div> <!-- end col -->
+                                                            </div> <!-- end row-->
+                    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- end col-->
+                                        </div> <!-- end row-->
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end row -->
+                        
+                    </div> <!-- container -->
+
+                </div> <!-- content -->
+
+                <!-- Footer Start -->
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                        <script>document.write(new Date().getFullYear())</script> &copy; All Rights Reserved <a href="https://chesadentalcare.com/">Chesa Dental Care</a> 
+ 
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-md-end footer-links d-none d-sm-block">
+                                    <a href="javascript:void(0);">About Us</a>
+                                    <a href="javascript:void(0);">Help</a>
+                                    <a href="javascript:void(0);">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- end Footer -->
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+
+        </div>
+        <!-- END wrapper -->
+
+        
+
+        <!-- Vendor js -->
+        <script src="../assets/js/vendor.min.js"></script>
+
+        <script src="../assets/libs/select2/js/select2.min.js"></script>
+
+        <!-- App js -->
+        <script src="../assets/js/app.min.js"></script>
+
+        <script>
+            ₹('[data-toggle="select2"]').select2();
+        </script>
+        
+    </body>
+</html>
